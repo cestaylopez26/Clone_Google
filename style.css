@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    background: white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header a{
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0,0,0,0.9);
+    font-size: 15px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+.header span{
+    text-decoration: inherit;
+    border-radius: 50%;
+    box-sizing: border-box;
+    align-items: center;
+}
+.header span:hover{
+    color: grey;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    min-width: 30vh;
+    justify-content: space-between;
+}
+
+.header__right .header__apps {
+    margin-right: 10px;
+  }
+
+.body {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.body img{
+    object-fit: contain;
+    height: 100px;
+}
+
+.search__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(235, 234, 234);
+    height: 30px;
+    padding: 10px 10px;
+    border-radius: 100px;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 500px;
+}
+
+.search__input input{
+    flex: 1;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+}
+
+.search__input .material-icons {
+    color: gray;
+}
+
+.search_button  {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: arial,sans-serif;
+    border-radius: 4px;
+}
+
+.search_button button {
+    margin-top: 5px;
+    margin: 11px 4px;
+    padding: 10px 10px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    height: 36px;
+}
+
+.search_button button:hover{
+    border-radius: 4px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.footer {
+
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    margin-top: 200px;
+    margin-right: 10px;
+    padding: 10px; 
+}
+
+.footer a:hover{
+    color: grey;
+}
+
+
+
